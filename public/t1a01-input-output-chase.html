@@ -1,0 +1,33 @@
+<h1 align=center>t1a01-in-out-advanced-chase.html</h1>
+
+<head>
+<style>
+body {
+  background-color: lightblue;
+}
+</style>
+</head>
+
+<input type=text id="myText01" value="3"><br>
+
+<input type=button value="Input/output" onclick="{
+
+   let myTemp = document.getElementById('myText01').value
+   document.getElementById('myDiv01').innerHTML = myTemp
+
+}">
+
+<div id="myDiv01">...</div>
+
+______________________________________________<br><br>
+
+<input type=text id="myText02" value="5"><br>
+
+<input type=button value="Input/output" onclick="{
+
+   let myTemp = document.getElementById('myText02').value
+   document.getElementById('myDiv02').innerHTML = myTemp
+
+}">
+
+<div id="myDiv02">...</div>
