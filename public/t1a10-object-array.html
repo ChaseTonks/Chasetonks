@@ -1,0 +1,9 @@
+<h1 align=center> Object Array by Chase</h1>
+
+<input type=button value="Show Object Array" onclick="{
+   let myObjectArray = {'age' : '22', 'name' : 'Fred'};
+   
+   let myPrintout='myObjectArray = '+JSON.stringify(myObjectArray,null,3)
+   document.getelementById('myTextArea01').value = myPrintout
+   document.getElementById('myDiv01').innerHTML = 'Nothing useful here'
+}">
